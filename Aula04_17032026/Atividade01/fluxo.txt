@@ -1,0 +1,14 @@
+Algoritmo "VerificaMeta"
+Var vendas, meta : Real
+Inicio
+  meta <- 100
+  Escreva("Digite o valor vendido: ")
+  Leia(vendas)
+  Se vendas >= meta Entao
+    Escreva("Meta atingida!")
+  FimSe
+FimAlgoritmo
+
+Vendas,Vendas >= 100?,Saída
+80,Falso,Meta não atingida
+120,Verdadeiro,Meta atingida!

@@ -1,0 +1,14 @@
+Se lanches >= 5 Entao
+  status <- "Alto"
+Senao
+  Se lanches >= 3 Entao
+    status <- "Médio"
+  Senao
+    status <- "Baixo"
+  FimSe
+FimSe
+
+Lanches,Condição,Resultado
+2,lanches < 3,Consumo baixo
+4,lanches >= 3,Consumo médio
+6,lanches >= 5,Consumo alto

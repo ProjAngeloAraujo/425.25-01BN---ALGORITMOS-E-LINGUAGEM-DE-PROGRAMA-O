@@ -1,0 +1,10 @@
+Se vendas >= 500 Entao
+  Escreva("Meta atingida")
+FimSe
+Se vendas >= 1000 Entao
+  Escreva("Bônus especial!")
+FimSe
+
+Vendas,>= 500?,>= 1000?,Saída
+600,Sim,Não,Meta atingida
+1200,Sim,Sim,Meta atingida + Bônus

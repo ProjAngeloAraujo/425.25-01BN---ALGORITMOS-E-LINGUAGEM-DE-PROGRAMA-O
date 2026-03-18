@@ -1,0 +1,14 @@
+Se pedido >= 80 Entao
+  frete <- "Grátis"
+Senao
+  Se pedido >= 40 Entao
+    frete <- "Normal"
+  Senao
+    frete <- "Sem frete grátis"
+  FimSe
+FimSe
+
+Pedido,Valor >= 80?,Valor >= 40?,Resultado
+35,Não,Não,Sem frete grátis
+50,Não,Sim,Frete normal
+100,Sim,-,Frete grátis

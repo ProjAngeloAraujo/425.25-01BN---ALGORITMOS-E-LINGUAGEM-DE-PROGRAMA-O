@@ -1,0 +1,7 @@
+Se valor >= 40 Entao "Cupom disponível"
+Se valor >= 80 Entao "Frete grátis"
+Se valor >= 120 Entao "Brinde"
+
+Pedido,>= 40,>= 80,>= 120,Resultado
+90,Sim,Sim,Não,Cupom + Frete
+150,Sim,Sim,Sim,Cupom + Frete + Brinde
